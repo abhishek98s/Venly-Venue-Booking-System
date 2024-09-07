@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venly | Venue Booking System</title>
+    <link rel="stylesheet" href="dist/css/vendor.css">
+    <link rel="stylesheet" href="dist/css/themes.css">
+</head>
+
+<body>
+    <div class="d-flex w-100">
+
+        <aside class="sidebar-wrapper">
+            <header class="p-2 d-flex justify-content-between align-items-center">
+                <figure>
+                    <img src="/images/logo.svg" alt="logo">
+                </figure>
+
+                <a href="#">
+                    <figure>
+                        <img src="/images/icons/icon-menu.svg" alt="logo">
+                    </figure>
+                </a>
+            </header>
+
+            <div class="pt-4 w-100">
+                <ul class="w-100 ps-2">
+                    <li class="w-100 px-2">
+                        <a href="/venue-list.html" class="d-block py-3 color-primary-700 text-16">Venue</a>
+                    </li>
+                    <li class="w-100 active px-2">
+                        <a href="/user-list.html" class="d-block py-3 color-primary-700 text-16">User list</a>
+                    </li>
+                    <li class="w-100 px-2">
+                        <a href="/booking-list.html" class="d-block py-3 color-primary-700 text-16">Booking list</a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+        <div class="main px-3 w-100">
+            <div class="header d-flex justify-content-between mb-5 align-items-end">
+                <h2 class="text-24 fw-bold color-primary-800">Nanly Banquet</h2>
+
+                <!-- <button class="primary-btn">Add Venue</button> -->
+            </div>
+
+            <div class="row row-gap-3">
+                <div class="col-12 col-md-6">
+                    <label class="text-16 mb-2">About</label>
+                    <textarea type="text bg-transparent" class="w-100"></textarea>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <label class="text-16 mb-2">Facility</label>
+                    <textarea type="text bg-transparent" class="w-100"></textarea>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <label class="text-16 mb-2">Map link</label>
+                    <textarea type="text bg-transparent" class="w-100"></textarea>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <label class="text-16 mb-2">Pricing</label>
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <label class="text-16 mb-2 fw-bold color-primary-800">Food</label>
+                            <input type="number" class="w-100">
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                            <label class="text-16 mb-2 fw-bold color-primary-800">Service</label>
+                            <input type="number" class="w-100">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="dist/js/custom.js"></script>
+</body>
+
+</html>
